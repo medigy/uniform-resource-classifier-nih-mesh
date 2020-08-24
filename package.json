@@ -1,0 +1,41 @@
+{
+    "name": "@shah/uniform-resource-classifier-nih-mesh",
+    "version": "0.5.0",
+    "description": "Uniform resource NIH MeSH topics classifier",
+    "main": "dist/uniform-resource-classifier-nih-mesh.js",
+    "types": "dist/uniform-resource-classifier-nih-mesh.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "prepublishOnly": "tsc --project tsconfig.json",
+        "build": "tsc --project tsconfig.json",
+        "test": "alsatian './**/*.spec.ts'"
+    },
+    "repository": {
+        "url": "git://github.com/shah/uniform-resource-classifier-nih-mesh.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "keywords": [
+        "NIH",
+        "MeSH"
+    ],
+    "author": "Shahid N. Shah",
+    "license": "MIT",
+    "dependencies": {
+        "@shah/traverse-urls": "0.7.1",
+        "@shah/uniform-resource": "1.0.1"
+    },
+    "bugs": {
+        "url": "https://github.com/shah/uniform-resource-classifier-nih-mesh/issues"
+    },
+    "homepage": "https://github.com/shah/uniform-resource-classifier-nih-mesh",
+    "devDependencies": {
+        "@types/node": "^14.0.26",
+        "alsatian": "^3.2.1",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7"
+    }
+}
