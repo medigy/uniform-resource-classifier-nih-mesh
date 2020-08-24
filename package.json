@@ -1,5 +1,5 @@
 {
-    "name": "@shah/uniform-resource-classifier-nih-mesh",
+    "name": "@medigy/uniform-resource-classifier-nih-mesh",
     "version": "0.5.0",
     "description": "Uniform resource NIH MeSH topics classifier",
     "main": "dist/uniform-resource-classifier-nih-mesh.js",
@@ -13,7 +13,7 @@
         "test": "alsatian './**/*.spec.ts'"
     },
     "repository": {
-        "url": "git://github.com/shah/uniform-resource-classifier-nih-mesh.git"
+        "url": "git://github.com/medigy/uniform-resource-classifier-nih-mesh.git"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
@@ -29,9 +29,9 @@
         "@shah/uniform-resource": "1.0.1"
     },
     "bugs": {
-        "url": "https://github.com/shah/uniform-resource-classifier-nih-mesh/issues"
+        "url": "https://github.com/medigy/uniform-resource-classifier-nih-mesh/issues"
     },
-    "homepage": "https://github.com/shah/uniform-resource-classifier-nih-mesh",
+    "homepage": "https://github.com/medigy/uniform-resource-classifier-nih-mesh",
     "devDependencies": {
         "@types/node": "^14.0.26",
         "alsatian": "^3.2.1",
