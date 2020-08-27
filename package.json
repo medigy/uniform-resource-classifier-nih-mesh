@@ -1,6 +1,6 @@
 {
     "name": "@medigy/uniform-resource-classifier-nih-mesh",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "Uniform resource NIH MeSH topics classifier",
     "main": "dist/uniform-resource-classifier-nih-mesh.js",
     "types": "dist/uniform-resource-classifier-nih-mesh.d.ts",
@@ -25,7 +25,7 @@
     "author": "Shahid N. Shah",
     "license": "MIT",
     "dependencies": {
-        "@shah/traverse-urls": "0.7.1",
+        "@shah/traverse-urls": "0.8.0",
         "@shah/uniform-resource": "1.0.1"
     },
     "bugs": {
