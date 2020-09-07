@@ -40,7 +40,7 @@ export class NihMedicalSubjectHeadingsClassifier implements ur.UniformResourceTr
   constructor() {
   }
 
-  async callMeshAPI(ctx: ur.ResourceTransformerContext, resource: ur.UniformResource, input: string): Promise<NihMeshNotClassifiableResource | NihMeshClassifiedResource> {
+  async callMeshAPI(_: ur.ResourceTransformerContext, resource: ur.UniformResource, input: string): Promise<NihMeshNotClassifiableResource | NihMeshClassifiedResource> {
     const result = await tru.call("https://meshb.nlm.nih.gov/api/MOD", { input });
     if (tru.isCallResult(result)) {
       return {
